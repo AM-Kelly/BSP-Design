@@ -19,6 +19,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ViewEditBook"
+            android:label="@string/title_activity_view_edit_book"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.adam.bsp.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AddBook"
+            android:label="@string/title_activity_add_book2"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.adam.bsp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

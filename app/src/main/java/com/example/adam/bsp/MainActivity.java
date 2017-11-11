@@ -1,5 +1,6 @@
 package com.example.adam.bsp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -83,8 +84,14 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_main) {
             // Handle the camera action
         } else if (id == R.id.nav_addbook) {
+            //Here the add book screen is being started
+            Intent intent = new Intent(this, AddBook.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_login) {
+            //Here the ViewEditBook screen is being started. This is a child of "Main"
+            Intent intent = new Intent(this, ViewEditBook.class);
+            startActivity(intent);
             
         } else if (id == R.id.nav_share) {
 
