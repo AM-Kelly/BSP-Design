@@ -19,10 +19,10 @@
         app:layout_constraintTop_toBottomOf="@+id/gridLayout2">
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/txtGenre2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Genre 2" />
 
         <ImageButton
             android:id="@+id/imageButton10"
@@ -84,10 +84,10 @@
         android:id="@+id/gridLayout2">
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/txtGenre1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Genre 1" />
 
         <ImageButton
             android:id="@+id/imageButton4"
@@ -149,10 +149,10 @@
         android:id="@+id/gridLayout">
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/txtPopularBooks"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:text="Popular Books" />
 
         <ImageButton
             android:id="@+id/imageButton1"
