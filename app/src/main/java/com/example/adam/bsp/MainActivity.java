@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_login) {
             //Here the ViewEditBook screen is being started. This is a child of "Main"
-            Intent intent = new Intent(this, ViewEditBook.class);
+            Intent intent = new Intent(this, Login.class);
             startActivity(intent);
             
         } else if (id == R.id.nav_share) {
@@ -102,5 +102,10 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    public void ViewEditClick(View view)
+    {
+        Intent intent = new Intent(this, ViewEditBook.class);
+        startActivity(intent);
     }
 }
