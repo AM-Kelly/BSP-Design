@@ -46,6 +46,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.adam.bsp.MainActivity" />
         </activity>
+        <activity
+            android:name=".AdminCMS"
+            android:label="@string/title_activity_admin_cms"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
