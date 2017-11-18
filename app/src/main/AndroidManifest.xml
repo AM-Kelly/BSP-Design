@@ -49,7 +49,16 @@
         <activity
             android:name=".AdminCMS"
             android:label="@string/title_activity_admin_cms"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".BookCMS"
+            android:label="@string/title_activity_book_cms"
+            android:parentActivityName=".AdminCMS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.adam.bsp.AdminCMS" />
+        </activity>
     </application>
 
 </manifest>

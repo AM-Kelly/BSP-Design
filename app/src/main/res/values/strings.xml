@@ -10,4 +10,5 @@
     <string name="title_activity_add_book2">AddBook2</string>
     <string name="title_activity_login">Login</string>
     <string name="title_activity_admin_cms">AdminCMS</string>
+    <string name="title_activity_book_cms">BookCMS</string>
 </resources>
